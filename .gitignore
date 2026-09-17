@@ -1,0 +1,9 @@
+dataset/
+result/
+.idea/
+.vscode/
+.git
+*.DS_Store
+venv/
+pretrained_weights/
+**/__pycache__/
