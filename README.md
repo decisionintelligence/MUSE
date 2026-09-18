@@ -46,7 +46,7 @@ sh ./scripts/multivariate_forecast/muse/ETTh1.sh
 
 ## Results
 
-All experiments of MUSE are conducted under the unified evaluation framework of the Time Series Forecasting Benchmark (TFB). All experiments of MUSE are implemented using PyTorch in Python 3.11.15 and executed on NVIDIA H20 GPUs. To ensure a fair comparison, we do not apply the “Drop Last” trick during validation.
+All experiments of MUSE are conducted under the unified evaluation framework of the Time Series Forecasting Benchmark (TFB). All experiments of MUSE are implemented using PyTorch in Python 3.11.15 and executed on NVIDIA H20 GPUs. To ensure a fair comparison, we do not apply the “Drop Last” trick during testing.
 
 <div align="center">
 <img alt="MUSE forecasting results" src="figures/results.png" width="75%"/>
